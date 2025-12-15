@@ -1,0 +1,2302 @@
+{
+  "test_1": [
+    {
+      "baseline": {
+        "f1": 0.938685507998354,
+        "std": 0.020797067450545853,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9336560822732908,
+        "std": 0.014385884556267008,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.934542925587361,
+        "std": 0.009470327087170672,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9457604694322069,
+        "std": 0.01680403376428368,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.950705597818434,
+        "std": 0.0043947921496874254,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "freq_only": {
+        "f1": 0.7975546501484693,
+        "std": 0.003793007967962401,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8553039367881149,
+        "std": 0.012400957512361517,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7111641904940501,
+        "std": 0.020524912362169516,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.852693009428855,
+        "std": 0.01574653308020521,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "back_only": {
+        "f1": 0.7864313246198203,
+        "std": 0.011509572107519517,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_2": [
+    {
+      "baseline": {
+        "f1": 0.9269157228254844,
+        "std": 0.010252817519586111,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9300002500765606,
+        "std": 0.011079208763210134,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.933315324529905,
+        "std": 0.01146161255581784,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9310551804365428,
+        "std": 0.006852549660025158,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9617418608607785,
+        "std": 0.0010255707816720324,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8130890593043612,
+        "std": 0.015848584287874293,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8662542086873634,
+        "std": 0.030636703290528707,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7299981946469849,
+        "std": 0.004957846924186971,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8460821275421407,
+        "std": 0.012314251485435728,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7967280933615717,
+        "std": 0.016255494951156833,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_3": [
+    {
+      "baseline": {
+        "f1": 0.9211182124320128,
+        "std": 0.017211390299570584,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9185276895007597,
+        "std": 0.01841747556788053,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9209029055747249,
+        "std": 0.01606764569756588,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.931416125363917,
+        "std": 0.01990559159294995,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9364083802843051,
+        "std": 0.008552699054412886,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "freq_only": {
+        "f1": 0.8101643178135952,
+        "std": 0.020791017705118715,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8666188749611488,
+        "std": 0.033671729184925586,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7248191124234431,
+        "std": 0.025701098178007652,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8394596857082907,
+        "std": 0.023796485770925014,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7892758652652695,
+        "std": 0.008282081032754443,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_4": [
+    {
+      "baseline": {
+        "f1": 0.9387189236007581,
+        "std": 0.004839983284547619,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9497563343707954,
+        "std": 0.010839839937786597,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.94685469132707,
+        "std": 0.0031171092560860233,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9583194667763061,
+        "std": 0.0052905609262869635,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9617166396493649,
+        "std": 0.003985073684326748,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.800899910698854,
+        "std": 0.021499060687321027,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8868554094527212,
+        "std": 0.008258593142951501,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7232167898596876,
+        "std": 0.012525137942105205,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8742067582769844,
+        "std": 0.01300955255830683,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7930486779030436,
+        "std": 0.011375749393987574,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_5": [
+    {
+      "baseline": {
+        "f1": 0.928436068553261,
+        "std": 0.013950162281951537,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9401498492041092,
+        "std": 0.011629428139611755,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.933776663527936,
+        "std": 0.01385360858025447,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9381549419594841,
+        "std": 0.023430526034392905,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9529012694772409,
+        "std": 0.008030675923032811,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8002068312552884,
+        "std": 0.013373731952350108,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8638220974180592,
+        "std": 0.010299405396403494,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7454052473279731,
+        "std": 0.014205040909987341,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 50
+        }
+      },
+      "arm_only": {
+        "f1": 0.868830259397297,
+        "std": 0.015784745545956932,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7883616699657342,
+        "std": 0.020028412578026174,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_6": [
+    {
+      "baseline": {
+        "f1": 0.9303662347853319,
+        "std": 0.016574960001246513,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.939985283203725,
+        "std": 0.008842440952315,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9314920889133583,
+        "std": 0.02785450265660928,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.945158567827754,
+        "std": 0.022601681232483687,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9515053771628051,
+        "std": 0.01889446808251139,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8070455890789588,
+        "std": 0.01838427826150876,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8549524452496629,
+        "std": 0.018337944263913948,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7434151067155964,
+        "std": 0.010825493944575123,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "arm_only": {
+        "f1": 0.8673967571971016,
+        "std": 0.0223088403618155,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7881886209792285,
+        "std": 0.03060312248241377,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_7": [
+    {
+      "baseline": {
+        "f1": 0.9256522481520676,
+        "std": 0.011961689116145797,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9314374515520457,
+        "std": 0.010103682816651175,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9293982496144131,
+        "std": 0.01566713025177252,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only": {
+        "f1": 0.9452080905270602,
+        "std": 0.008783952357598258,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9442035555406291,
+        "std": 0.010903890231901707,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "freq_only": {
+        "f1": 0.8056052030292987,
+        "std": 0.007951664175320337,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8648114621322535,
+        "std": 0.02033765088192345,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7249974212426548,
+        "std": 0.0181345525923071,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8617737238162632,
+        "std": 0.015779918493423684,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7913436493828424,
+        "std": 0.011527194517699508,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only"
+  ],
+  "test_8": [
+    {
+      "baseline": {
+        "f1": 0.943739793142548,
+        "std": 0.006776169864872932,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9451908466083602,
+        "std": 0.004803590118098429,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9462508837980073,
+        "std": 0.010181727203931299,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only": {
+        "f1": 0.9271829770335854,
+        "std": 0.005762452964884607,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9579279325970909,
+        "std": 0.012198337291004622,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "freq_only": {
+        "f1": 0.8254759433210683,
+        "std": 0.017553081051988738,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8743432467701894,
+        "std": 0.0015841391685120004,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7250182263483831,
+        "std": 0.0036928999910476714,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8673101740629251,
+        "std": 0.02252091709097704,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.780004842549655,
+        "std": 0.026881685647293454,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_9": [
+    {
+      "baseline": {
+        "f1": 0.9343667784864592,
+        "std": 0.017183078716433025,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9358416804061337,
+        "std": 0.020241760019603552,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9333643141534504,
+        "std": 0.019524521146474086,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9253358035335247,
+        "std": 0.010469561513150516,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9554793359077386,
+        "std": 0.018269505471792458,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8007914493368616,
+        "std": 0.020626034647829493,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 15,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.855092681754165,
+        "std": 0.017166422316178695,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7225000378458146,
+        "std": 0.019254453163533487,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "arm_only": {
+        "f1": 0.8580272861488671,
+        "std": 0.01677329520713049,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7962752293526879,
+        "std": 0.01968334452036475,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_10": [
+    {
+      "baseline": {
+        "f1": 0.9293641101526321,
+        "std": 0.007656584191136586,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9392374549649375,
+        "std": 0.0069794885427164124,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9335719792566229,
+        "std": 0.011857738175177287,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9407923764059207,
+        "std": 0.011743110263976203,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9451325615905946,
+        "std": 0.012287838905237372,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8065568753657638,
+        "std": 0.012658453042096434,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8594057175213422,
+        "std": 0.004765313789148642,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7469374626703322,
+        "std": 0.00558999638966432,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8679138141257395,
+        "std": 0.016680931181012652,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7948253156092674,
+        "std": 0.00839529645728941,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_11": [
+    {
+      "baseline": {
+        "f1": 0.9256913788347054,
+        "std": 0.008534564811579342,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9397811210645873,
+        "std": 0.011048759431764912,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9540428993448445,
+        "std": 0.011285625581597576,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9420172821121487,
+        "std": 0.010549033893373177,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9616622704440232,
+        "std": 0.004642341816914595,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8014347856483491,
+        "std": 0.001690182644620402,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.859877053460981,
+        "std": 0.011681501842080569,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7239413415271893,
+        "std": 0.022990569079936386,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8679251547138916,
+        "std": 0.009525881773806928,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7906493039073276,
+        "std": 0.021113057981973413,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_12": [
+    {
+      "baseline": {
+        "f1": 0.9279722614084759,
+        "std": 0.00876559250660989,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9413988261983878,
+        "std": 0.01481780728327174,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9350449771451436,
+        "std": 0.012046336257628278,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9436196637441653,
+        "std": 0.0155219017348176,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9453550147030425,
+        "std": 0.02755444033340321,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8115872038482284,
+        "std": 0.01782747214035545,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8482897288646137,
+        "std": 0.008644221625587896,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "FSR_only": {
+        "f1": 0.73357775205286,
+        "std": 0.012458704035538622,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8526886916562808,
+        "std": 0.02211497904789721,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.8109472109590411,
+        "std": 0.025963789004241497,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_13": [
+    {
+      "baseline": {
+        "f1": 0.9214509053802532,
+        "std": 0.01337660624629452,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9357980075243392,
+        "std": 0.007368983919214472,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9305474819324556,
+        "std": 0.009616667835666098,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only": {
+        "f1": 0.9439130899482088,
+        "std": 0.012456158247286696,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9452516174867881,
+        "std": 0.007779123623079154,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8102087671284669,
+        "std": 0.016115234298709893,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8493229644924142,
+        "std": 0.00858233104567765,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7345331940413397,
+        "std": 0.012801879038040526,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8695184289140984,
+        "std": 0.00665765826758381,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "back_only": {
+        "f1": 0.7828881071018879,
+        "std": 0.019170827427347818,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_14": [
+    {
+      "baseline": {
+        "f1": 0.9298151816784784,
+        "std": 0.011563925614979036,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9470701575671265,
+        "std": 0.006485026154779613,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9399562586626321,
+        "std": 0.004801864529931433,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9482330984488604,
+        "std": 0.0036951370350412896,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9483549117232525,
+        "std": 0.008576019481451385,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8051496604923772,
+        "std": 0.00398203393349035,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8499927675709618,
+        "std": 0.01754368541349053,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7317065180733309,
+        "std": 0.009251050511540815,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8688608305971207,
+        "std": 0.011042063472000015,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7975265646882487,
+        "std": 0.02004514011894811,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_15": [
+    {
+      "baseline": {
+        "f1": 0.9210052652175929,
+        "std": 0.010868183056362625,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 50
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9392113351380263,
+        "std": 0.007983110795786716,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9321014051284239,
+        "std": 0.017441631332314682,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9468360108366536,
+        "std": 0.01573208835669867,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9469973532369581,
+        "std": 0.013096050753689118,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8004681905102281,
+        "std": 0.015041420569253663,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.846995846366856,
+        "std": 0.009688611425095943,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7282360094564586,
+        "std": 0.011247328497123392,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "arm_only": {
+        "f1": 0.8575848292030669,
+        "std": 0.009098447561248316,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7807241067642418,
+        "std": 0.0026087942824918934,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_16": [
+    {
+      "baseline": {
+        "f1": 0.925254980186122,
+        "std": 0.008132346311840892,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9260900213858824,
+        "std": 0.00625710312542165,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9346347770885776,
+        "std": 0.0043350353854207145,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only": {
+        "f1": 0.9465567762827063,
+        "std": 0.0176227804629936,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9469214949703101,
+        "std": 0.005822084906879973,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8076426696314342,
+        "std": 0.00978602229913636,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8689102854532198,
+        "std": 0.015713797482173927,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7369739978844958,
+        "std": 0.007570257866727087,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8721753955299213,
+        "std": 0.009904656859814582,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7770165359318333,
+        "std": 0.003233694013300643,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_17": [
+    {
+      "baseline": {
+        "f1": 0.934476567504187,
+        "std": 0.01632103607143637,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9427246624177282,
+        "std": 0.005226295717180099,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9435411097159405,
+        "std": 0.011355772397142461,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9480800882102093,
+        "std": 0.010495696437070184,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9589657434712929,
+        "std": 0.007696860908367793,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8125993954516636,
+        "std": 0.009287864845569966,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8657502188195002,
+        "std": 0.013864279734307063,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7169696541976306,
+        "std": 0.011031195865062019,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8678327216486171,
+        "std": 0.00952797225680575,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "back_only": {
+        "f1": 0.7919686450961331,
+        "std": 0.011465208983454002,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_18": [
+    {
+      "baseline": {
+        "f1": 0.9401460556651036,
+        "std": 0.015289463053302917,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9483305745940488,
+        "std": 0.005696813889707598,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9398356103217601,
+        "std": 0.004470168632455797,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only": {
+        "f1": 0.9423416610526328,
+        "std": 0.012894235066384194,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.943165609315543,
+        "std": 0.0014587901953862685,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8101810860827556,
+        "std": 0.002485717077411652,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8674879873320895,
+        "std": 0.007970564360246096,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7313760978555566,
+        "std": 0.03436119042837448,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8583549717471248,
+        "std": 0.01254952557018444,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "back_only": {
+        "f1": 0.7898173474474154,
+        "std": 0.006578302463719264,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_19": [
+    {
+      "baseline": {
+        "f1": 0.9345090145674962,
+        "std": 0.006689313212677835,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9431581326716794,
+        "std": 0.003478433919020831,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9356187186123455,
+        "std": 0.01038016895998651,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "time_only": {
+        "f1": 0.9462490636998151,
+        "std": 0.012216550051512346,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9555868972755363,
+        "std": 0.008818066919307912,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 50
+        }
+      },
+      "freq_only": {
+        "f1": 0.8084863633303865,
+        "std": 0.00979944312537495,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 15,
+          "n_estimators": 200
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8615968842029446,
+        "std": 0.018574589828786698,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7270723761469838,
+        "std": 0.026540387658025195,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8644881074639725,
+        "std": 0.006478809158480712,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 10,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "back_only": {
+        "f1": 0.7942171953541295,
+        "std": 0.015468922457430163,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_20": [
+    {
+      "baseline": {
+        "f1": 0.9284632580539748,
+        "std": 0.008366124205269795,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9326603233030033,
+        "std": 0.012925041518828473,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9360900919536398,
+        "std": 0.00409497988511789,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "time_only": {
+        "f1": 0.9355981131783718,
+        "std": 0.02147748349666671,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9426579978929591,
+        "std": 0.00838533617237985,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      },
+      "freq_only": {
+        "f1": 0.8136405266512412,
+        "std": 0.007334899002559134,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 100
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.855664457114215,
+        "std": 0.01594061819576178,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7149026167415983,
+        "std": 0.01639634330598459,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 200
+        }
+      },
+      "arm_only": {
+        "f1": 0.8710245812405114,
+        "std": 0.011036506574027577,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 20,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "n_estimators": 100
+        }
+      },
+      "back_only": {
+        "f1": 0.7845046438853694,
+        "std": 0.020183810671394863,
+        "parameters": {
+          "bootstrap": true,
+          "max_depth": 15,
+          "min_samples_leaf": 2,
+          "min_samples_split": 10,
+          "n_estimators": 200
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ]
+}

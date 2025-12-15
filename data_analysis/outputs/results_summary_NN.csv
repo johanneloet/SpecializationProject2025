@@ -1,0 +1,5 @@
+,value
+Accuracy,0.902 ± 0.066
+F1-score,0.858       ± 0.101
+Precision,0.875 ± 0.106
+Recall,0.881    ± 0.078

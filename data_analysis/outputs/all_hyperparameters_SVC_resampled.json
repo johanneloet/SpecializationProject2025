@@ -1,0 +1,1902 @@
+{
+  "test_1": [
+    {
+      "baseline": {
+        "f1": 0.9766867008907164,
+        "std": 0.0022513615798446505,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9782995022813937,
+        "std": 0.007618186118767932,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9747971009644217,
+        "std": 0.00554231033271829,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "time_only": {
+        "f1": 0.9679854149254492,
+        "std": 0.006326442692478849,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.979260020459983,
+        "std": 0.002937569776387838,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8380325007139972,
+        "std": 0.005169365719915794,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9200740913796824,
+        "std": 0.010171256466984049,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.788021663452065,
+        "std": 0.00625317816846318,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8984447735918417,
+        "std": 0.014343219920584488,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7978916970616328,
+        "std": 0.02151434245235024,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_2": [
+    {
+      "baseline": {
+        "f1": 0.9701315600361017,
+        "std": 0.00655780286326141,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9737189183720888,
+        "std": 0.009419435063429894,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.974782091073846,
+        "std": 0.010148106893221865,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.972152865684639,
+        "std": 0.0040530450772136815,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9766282449573973,
+        "std": 0.00821572688217078,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8260279388054136,
+        "std": 0.02514597334676862,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.921097392489699,
+        "std": 0.015506116878969448,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8004400281592954,
+        "std": 0.0073205185670708675,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8907117854874501,
+        "std": 0.012733245123773369,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.802717579447553,
+        "std": 0.020944865760086268,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_3": [
+    {
+      "baseline": {
+        "f1": 0.9743106702143728,
+        "std": 0.007377987686372752,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9748332381339089,
+        "std": 0.009306853496500225,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9749967016042151,
+        "std": 0.00589619052952852,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9697092816130913,
+        "std": 0.008458476780144207,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9707379939350916,
+        "std": 0.0018064813865282144,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8411620847601539,
+        "std": 0.00983869547826945,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9167219193715597,
+        "std": 0.013186435651409948,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8041900202565976,
+        "std": 0.021683774871428443,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8889683070391122,
+        "std": 0.020841034704876155,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.8100253971797416,
+        "std": 0.005416028253089264,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_4": [
+    {
+      "baseline": {
+        "f1": 0.9725791262288442,
+        "std": 0.007371995311778783,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9779796935810773,
+        "std": 0.004057031704308889,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9751669246128664,
+        "std": 0.0021278004613880636,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9732518072878481,
+        "std": 0.0018500013194193993,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9759798827920388,
+        "std": 0.0029450046734719607,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8361924718233255,
+        "std": 0.012271074219016789,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9118293494847958,
+        "std": 0.007092634574824779,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7973911946166777,
+        "std": 0.014627423462647154,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9006916510243838,
+        "std": 0.009228583112491206,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.8160122758449205,
+        "std": 0.025351153432193112,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_5": [
+    {
+      "baseline": {
+        "f1": 0.9659686860876161,
+        "std": 0.011864271964237508,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9753984780562289,
+        "std": 0.005159497997255987,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9738749874087267,
+        "std": 0.007753268566968371,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9695309335240369,
+        "std": 0.008339709170004478,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9736619663486573,
+        "std": 0.00988129628222117,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8250625842721094,
+        "std": 0.001968954453906735,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9281210692380798,
+        "std": 0.0034669992264693265,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8004189666256633,
+        "std": 0.009088523422918666,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8859056422722776,
+        "std": 0.010794071684226072,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7972123148291961,
+        "std": 0.02500575835378854,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_6": [
+    {
+      "baseline": {
+        "f1": 0.9735654595527613,
+        "std": 0.007846537006243525,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9754740569912549,
+        "std": 0.005425148029427154,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9745626732079465,
+        "std": 0.0025761896318965073,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9632215389777677,
+        "std": 0.010560108987115891,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9691559870901075,
+        "std": 0.014276270841784601,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8394593635899034,
+        "std": 0.006281172921498703,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.917311173346814,
+        "std": 0.012969447350997374,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8047293763472347,
+        "std": 0.0068026012649604,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8958563941078518,
+        "std": 0.02500763320385544,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7966006805629764,
+        "std": 0.027109940011239907,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_7": [
+    {
+      "baseline": {
+        "f1": 0.960072574657095,
+        "std": 0.00798830765509596,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9682233486957541,
+        "std": 0.00580830261790051,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9690007039579163,
+        "std": 0.007390234782378305,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9589349311625623,
+        "std": 0.0028548255784528504,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9668058723664821,
+        "std": 0.003886515810384865,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8495713741971033,
+        "std": 0.005799142946260657,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9213885843538577,
+        "std": 0.010574808021882966,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7936906896635593,
+        "std": 0.007459650339356408,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9024114122971394,
+        "std": 0.017468047887036754,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.8043094401647896,
+        "std": 0.006374913163392986,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_8": [
+    {
+      "baseline": {
+        "f1": 0.9765321990953147,
+        "std": 0.0020221942151496665,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9751581333466962,
+        "std": 0.004694516699224204,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.978672888436339,
+        "std": 0.0025109216960105545,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "time_only": {
+        "f1": 0.9680122472834954,
+        "std": 0.009163280948656415,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9710953950547774,
+        "std": 0.013821214123246156,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8539398605466683,
+        "std": 0.007310271674433539,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.926933755925988,
+        "std": 0.005562383010337625,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8085247333562261,
+        "std": 0.0038019725389208956,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9037538120631504,
+        "std": 0.009489324257737273,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7895957572650225,
+        "std": 0.014707478681979354,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_9": [
+    {
+      "baseline": {
+        "f1": 0.9695176383560539,
+        "std": 0.006319019847027758,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9733399833500674,
+        "std": 0.002302557123352808,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9765199052073603,
+        "std": 0.005103308077651964,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.959531341465258,
+        "std": 0.013738514112346027,
+        "parameters": {
+          "C": 1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9671234964652218,
+        "std": 0.005438499030310224,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8320483312262127,
+        "std": 0.024186170936780393,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.915271861595345,
+        "std": 0.006207528987400038,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7872999482524256,
+        "std": 0.01900753857084483,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.896334369881246,
+        "std": 0.017783500820626394,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7986799877175654,
+        "std": 0.011405850001956937,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_10": [
+    {
+      "baseline": {
+        "f1": 0.9642723800422218,
+        "std": 0.006658814434399788,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9712067698222392,
+        "std": 0.0012869686447370106,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9670919583383476,
+        "std": 0.0022008370870555257,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9633277124465053,
+        "std": 0.009133416431560968,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.966022221706606,
+        "std": 0.010241784527266137,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8323853973927337,
+        "std": 0.025810063048793776,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9078563850444138,
+        "std": 0.0154235324261674,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7958398870239609,
+        "std": 0.016012559434028694,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9067514637114108,
+        "std": 0.00983447635815477,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.8085914558332422,
+        "std": 0.008829164843561915,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_11": [
+    {
+      "baseline": {
+        "f1": 0.9761281448919065,
+        "std": 0.007268926895399483,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9772501469892115,
+        "std": 0.006056993108048068,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9764441881679597,
+        "std": 0.003930957537422439,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9647004052922338,
+        "std": 0.010060001767001019,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9747440036736666,
+        "std": 0.002792196729453524,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8371313364886773,
+        "std": 0.010137334424124015,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9103521783865142,
+        "std": 0.011844720920078485,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8030457382691156,
+        "std": 0.018384746754671482,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9052493416404582,
+        "std": 0.013123983611422836,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.783123965094951,
+        "std": 0.010005985037978395,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_12": [
+    {
+      "baseline": {
+        "f1": 0.9689166709739263,
+        "std": 0.004530941066730147,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9709856115640703,
+        "std": 0.006831829861334049,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.97262615298499,
+        "std": 0.011944527417017244,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9611951415579444,
+        "std": 0.010829450662382665,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9645358265423983,
+        "std": 0.011818755848214542,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "freq_only": {
+        "f1": 0.838496153425141,
+        "std": 0.018180046895237764,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9181167309000765,
+        "std": 0.01575898118103028,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7996322379347868,
+        "std": 0.013048971920287068,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8963404646519798,
+        "std": 0.028434294058218203,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.8052884967199662,
+        "std": 0.00990171030217625,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_13": [
+    {
+      "baseline": {
+        "f1": 0.9682679771817503,
+        "std": 0.00710509582521716,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9773132585074737,
+        "std": 0.004891208797830079,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9745535875536867,
+        "std": 0.004033313395081268,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9662915149484275,
+        "std": 0.009325375079147814,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9699268418023715,
+        "std": 0.004271617670035061,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8441666954571397,
+        "std": 0.014718242713026736,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9054221229815527,
+        "std": 0.008823815400190282,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8004524658328207,
+        "std": 0.018713130498611747,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8976013341078254,
+        "std": 0.011565920236470396,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7964274147595501,
+        "std": 0.013685897186523393,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_14": [
+    {
+      "baseline": {
+        "f1": 0.9751077011181032,
+        "std": 0.004545973798668141,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9798138017796824,
+        "std": 0.0014996057278146221,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9734743756540903,
+        "std": 0.0020390849424120885,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9709644312314251,
+        "std": 0.003598651378296508,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.971827569647863,
+        "std": 0.0046304441191598635,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8402061856255578,
+        "std": 0.02692993217478446,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9053156704368424,
+        "std": 0.0068359251690196625,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7964428971834883,
+        "std": 0.012692588148936755,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9084560331599975,
+        "std": 0.0072891845515943065,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7931956585708105,
+        "std": 0.016432763494406352,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_15": [
+    {
+      "baseline": {
+        "f1": 0.9716189527674374,
+        "std": 0.011492074580755327,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9758188737603914,
+        "std": 0.00492042703870971,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9749546147420866,
+        "std": 0.0038194883229305276,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9674972438698392,
+        "std": 0.008298149373700697,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9725954591612025,
+        "std": 0.002839604963161652,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8419880726004286,
+        "std": 0.016421545674984425,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9105046786052418,
+        "std": 0.010833778141455953,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8032558141199678,
+        "std": 0.02209774433008162,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9069152776798889,
+        "std": 0.014188511998794664,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.787677536292236,
+        "std": 0.0060047100888731084,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_16": [
+    {
+      "baseline": {
+        "f1": 0.9770606444481739,
+        "std": 0.007412054132906099,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9763877603920931,
+        "std": 0.008104786368481552,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9721004730848993,
+        "std": 0.007537251985656147,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9701803982341458,
+        "std": 0.008038924139346317,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9749928692598813,
+        "std": 0.008419652009068367,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8384102646627052,
+        "std": 0.01035348948218008,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9122875139202744,
+        "std": 0.005263961812576006,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8018719133757332,
+        "std": 0.02069718955939037,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8952893859052482,
+        "std": 0.012890795981518672,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7938985221347145,
+        "std": 0.004898566769427745,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "baseline"
+  ],
+  "test_17": [
+    {
+      "baseline": {
+        "f1": 0.9765033479845266,
+        "std": 0.005602767437130634,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9857374233693492,
+        "std": 0.004823170471614439,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9831242915413704,
+        "std": 0.0033903174855094117,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9706639866908585,
+        "std": 0.010535295687947158,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9762806610829903,
+        "std": 0.008673617800707085,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8341146129759384,
+        "std": 0.017524637202701976,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9291541451543338,
+        "std": 0.007830523651710037,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8023925801184312,
+        "std": 0.009865069811432673,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.906489141397579,
+        "std": 0.0024487755012315405,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7934090965599957,
+        "std": 0.010975622187890837,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_18": [
+    {
+      "baseline": {
+        "f1": 0.9667522442360591,
+        "std": 0.009942387912285609,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9727342139893116,
+        "std": 0.004960527352530658,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.973379783279269,
+        "std": 0.006454834201644622,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9649780169240002,
+        "std": 0.00199965413002544,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9713749376394563,
+        "std": 0.004130609553080093,
+        "parameters": {
+          "C": 1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8502735173817385,
+        "std": 0.013118625943920935,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.923648463824836,
+        "std": 0.007934466406206863,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8012761347854687,
+        "std": 0.013830768499569384,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.9056633123689091,
+        "std": 0.013449144091275102,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7888371105544661,
+        "std": 0.00413736057916768,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_19": [
+    {
+      "baseline": {
+        "f1": 0.9769306184507283,
+        "std": 0.0069489509867984986,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9826470484104964,
+        "std": 0.004088642840386341,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9754246237417398,
+        "std": 0.0026001106442412004,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.9745270228755295,
+        "std": 0.0051797159867824774,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9761829033552966,
+        "std": 0.001434290545279014,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8503117602200855,
+        "std": 0.0139203916394928,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9385280433678934,
+        "std": 0.005499142687742548,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7973833349199383,
+        "std": 0.015250035135880665,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8909136358389841,
+        "std": 0.011612466629341326,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.8142783086444795,
+        "std": 0.00534267408231782,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_20": [
+    {
+      "baseline": {
+        "f1": 0.9684194652160238,
+        "std": 0.010780099059852463,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9740183160655423,
+        "std": 0.011148546473188938,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9735944048827155,
+        "std": 0.011734592478719044,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only": {
+        "f1": 0.963584101110729,
+        "std": 0.014552342639568916,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9684384015495363,
+        "std": 0.008592971578178116,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8392953404722284,
+        "std": 0.009884898405720542,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9181055083465949,
+        "std": 0.005100713824813616,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7799340939887637,
+        "std": 0.0036551618983903453,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only": {
+        "f1": 0.906590831302791,
+        "std": 0.010937599999807562,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "back_only": {
+        "f1": 0.7914015483164585,
+        "std": 0.01942318980762268,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ]
+}

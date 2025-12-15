@@ -1,0 +1,14 @@
+{
+    "mean_accuracy_per_label": {
+        "hand_up_back": 0.25,
+        "hands_forward": 0.0,
+        "hands_up": 1.0,
+        "lifting": 1.0,
+        "pull": 1.0,
+        "push": 0.25,
+        "sitting": 1.0,
+        "standing": 1.0,
+        "walking": 0.8
+    },
+    "total_mean_accuracy": 0.7352941176470589
+}

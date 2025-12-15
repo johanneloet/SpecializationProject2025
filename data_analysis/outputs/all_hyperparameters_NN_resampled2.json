@@ -1,0 +1,3809 @@
+{
+  "test_1": [
+    {
+      "baseline": {
+        "f1": 0.9606610933545866,
+        "std": 0.017439938890219317,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9651021036466733,
+        "std": 0.011354224576378052,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9724311277983381,
+        "std": 0.002130090606382963,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9625600725007022,
+        "std": 0.005350814621658411,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9617070355356806,
+        "std": 0.004616868972791419,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8314799983886565,
+        "std": 0.006174900991567348,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8844001036125309,
+        "std": 0.02050829525196027,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7271445318218106,
+        "std": 0.017751258317956542,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8842163816326317,
+        "std": 0.009736244869662276,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.8021335120371162,
+        "std": 0.0077307986269685765,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9415381633777118,
+        "std": 0.00543684866810176,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_2": [
+    {
+      "baseline": {
+        "f1": 0.9577567490851489,
+        "std": 0.013199059982764652,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9660022107322876,
+        "std": 0.007861023613992563,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9670263718039274,
+        "std": 0.011984776756575865,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9598631535117826,
+        "std": 0.00238069104316227,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9701533228998805,
+        "std": 0.009687602279524215,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8102675013070201,
+        "std": 0.01663304227283348,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.88975263454317,
+        "std": 0.02100733943444806,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7224462683178049,
+        "std": 0.009302759717029116,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8709607917702696,
+        "std": 0.006438180249909376,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7879668708550446,
+        "std": 0.027947539016143153,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9311445252811711,
+        "std": 0.01623056118712011,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_3": [
+    {
+      "baseline": {
+        "f1": 0.9576875613444807,
+        "std": 0.007703111396161294,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9581236712912068,
+        "std": 0.009435566336952955,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9663140581054167,
+        "std": 0.008520969482270043,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9623219261001642,
+        "std": 0.008460643026520625,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9726420928607773,
+        "std": 0.005909280765408367,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8258185320152052,
+        "std": 0.01704776946354506,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.900163622257487,
+        "std": 0.019473342239447924,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7335341005926672,
+        "std": 0.009180466308185677,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8690841904451991,
+        "std": 0.007724025849892032,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7830812318462996,
+        "std": 0.008087242741323889,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9265577050818677,
+        "std": 0.0029434671932823436,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_4": [
+    {
+      "baseline": {
+        "f1": 0.9653370128002697,
+        "std": 0.013279687932625808,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9639040258122223,
+        "std": 0.006801969766453712,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9665226080515348,
+        "std": 0.011911374410256257,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9645652176856494,
+        "std": 0.01807265988623439,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9726958014991042,
+        "std": 0.01061928024918234,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8230141859032326,
+        "std": 0.005546031132452202,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8976051597901614,
+        "std": 0.00348594409983712,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7336550489738364,
+        "std": 0.021164409535670975,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8861406318776899,
+        "std": 0.009098820111662046,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7981721685840553,
+        "std": 0.022107897969113798,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9331772039867038,
+        "std": 0.005137888032156456,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_5": [
+    {
+      "baseline": {
+        "f1": 0.9530396296734968,
+        "std": 0.017055609952418133,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9624029545575011,
+        "std": 0.014371482603795218,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9644816274572543,
+        "std": 0.014868266933191909,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9615586880594856,
+        "std": 0.0024581966624466463,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9693104321353201,
+        "std": 0.006912841404355507,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8106279322527173,
+        "std": 0.019395540925562237,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8920615223118782,
+        "std": 0.014845319370601462,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7072731870048541,
+        "std": 0.027786393137102367,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8737923290084457,
+        "std": 0.028025461600382915,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7894029343718101,
+        "std": 0.025340017125056912,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9214976260171558,
+        "std": 0.014435292506620682,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_6": [
+    {
+      "baseline": {
+        "f1": 0.9579527901929364,
+        "std": 0.009399076172348185,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.968074183575577,
+        "std": 0.010450684591470931,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9657472769701562,
+        "std": 0.017831048232109712,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.960764452571151,
+        "std": 0.00606344246508435,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9692627242690929,
+        "std": 0.010806081251418664,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8198498164298722,
+        "std": 0.01026824967824072,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9046334346838384,
+        "std": 0.003038448993790021,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.723523943405045,
+        "std": 0.028840173188832797,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8818596169596908,
+        "std": 0.00803264333847129,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7854149830127639,
+        "std": 0.031160042956764472,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9360028105572263,
+        "std": 0.017715033102383714,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_7": [
+    {
+      "baseline": {
+        "f1": 0.9562011426791898,
+        "std": 0.0028635716384651324,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9524313171143374,
+        "std": 0.021935729328092058,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9623436607039406,
+        "std": 0.007367290153631618,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9543821014625996,
+        "std": 0.004001131181346324,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9569799436204534,
+        "std": 0.005423657966002029,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8320704156051596,
+        "std": 0.0021842616851166226,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8907671291945746,
+        "std": 0.005073693778854996,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7315429625070266,
+        "std": 0.016546375898080588,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8821670969170158,
+        "std": 0.008311831696170946,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7929225453399321,
+        "std": 0.01816556424902397,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9267699313206231,
+        "std": 0.016303065840025582,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_8": [
+    {
+      "baseline": {
+        "f1": 0.9596271083514377,
+        "std": 0.013127042630249728,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9602641775538213,
+        "std": 0.006669593749893549,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.968062701258675,
+        "std": 0.004064820964191009,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.953947188816647,
+        "std": 0.004556511154994814,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9698257563748321,
+        "std": 0.008722194521837784,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.826607981833876,
+        "std": 0.0013061953285326286,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.902984489890427,
+        "std": 0.0038463392560908714,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7055798737582483,
+        "std": 0.01840085792357083,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8807103589548807,
+        "std": 0.004996496605775147,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7739752261747688,
+        "std": 0.022741919117417977,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9228255506655807,
+        "std": 0.007940059242220758,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_9": [
+    {
+      "baseline": {
+        "f1": 0.9530256738722178,
+        "std": 0.0043080570931951345,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.962723323092359,
+        "std": 0.007962887236467545,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9594673327674371,
+        "std": 0.014417609746686802,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9546586131632004,
+        "std": 0.014897971982643593,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9626407607041528,
+        "std": 0.012669343134488057,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8258468731213017,
+        "std": 0.01908385901813237,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8940509368023987,
+        "std": 0.013615956241224116,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7431767711478554,
+        "std": 0.03155981521820198,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8722929078291447,
+        "std": 0.01871541996859508,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.8030617699206793,
+        "std": 0.011955063646542086,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9209595984863194,
+        "std": 0.020678648699163138,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_10": [
+    {
+      "baseline": {
+        "f1": 0.947646717232698,
+        "std": 0.008539710585100387,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9566302175591366,
+        "std": 0.006183938030606242,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9540378389677023,
+        "std": 0.00985549982162275,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9542304065759598,
+        "std": 0.012337927336537,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9604889957080734,
+        "std": 0.011816975334060599,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8203055249678828,
+        "std": 0.02810325899611675,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8864646537155491,
+        "std": 0.005925021585904247,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7085869177039289,
+        "std": 0.04378290451828364,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8750573052261066,
+        "std": 0.009804391486792458,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.782170607992042,
+        "std": 0.010410256618955394,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9223215254568652,
+        "std": 0.008306882011544772,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_11": [
+    {
+      "baseline": {
+        "f1": 0.9571322316693737,
+        "std": 0.005033953906734661,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9666092649695986,
+        "std": 0.011995540168716842,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9634675322649026,
+        "std": 0.007354298463127921,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9653649884592664,
+        "std": 0.004187776482025347,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9701784187243288,
+        "std": 0.014483539468379264,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8281051075299416,
+        "std": 0.021071066480123572,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8960353660129501,
+        "std": 0.009732257687063369,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7171545036689361,
+        "std": 0.02442411480575971,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8826555461803306,
+        "std": 0.012493738009500243,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7776832029442379,
+        "std": 0.023414521522203566,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9256374246763409,
+        "std": 0.015291667075500592,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_12": [
+    {
+      "baseline": {
+        "f1": 0.9496410276056205,
+        "std": 0.02310533555283076,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9662126703778924,
+        "std": 0.014157018973634188,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.960085290926919,
+        "std": 0.017957485920585516,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9542933003561407,
+        "std": 0.011696451324147084,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9646612878085136,
+        "std": 0.017439707479135,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8216451589405397,
+        "std": 0.010615725999553452,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.9115205751913976,
+        "std": 0.017676984838572742,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.740084437003465,
+        "std": 0.0217652300084905,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8714271186837138,
+        "std": 0.012803493555625451,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7859959662234276,
+        "std": 0.02806678839307211,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9359356529467222,
+        "std": 0.02281132800204512,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_13": [
+    {
+      "baseline": {
+        "f1": 0.9615766560407518,
+        "std": 0.008915792048367415,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9614963904319702,
+        "std": 0.0008082856658325629,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9684985140004437,
+        "std": 0.0004517624942026609,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9610630314177696,
+        "std": 0.006392726741111796,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9632108082423887,
+        "std": 0.009602636110401887,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.82073605160313,
+        "std": 0.013996651008715992,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8841448375129991,
+        "std": 0.011225737432099514,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.71514456843011,
+        "std": 0.016635990535180955,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8845643526272243,
+        "std": 0.00794571313464261,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7906432204734122,
+        "std": 0.016172550735244255,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9313858602325077,
+        "std": 0.0056662345705179905,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_14": [
+    {
+      "baseline": {
+        "f1": 0.9574559003665469,
+        "std": 0.011033311212200239,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9614720854738636,
+        "std": 0.007657732110098067,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9652203405239644,
+        "std": 0.006080618052873635,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9574695408297501,
+        "std": 0.011665651168219287,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9697219565980268,
+        "std": 0.006860178347414546,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8280314439449237,
+        "std": 0.013786684552158021,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8862280757533663,
+        "std": 0.01821037315946438,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7075078728024726,
+        "std": 0.011849242847247745,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8931772107351185,
+        "std": 0.012016633525160806,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7915927192621567,
+        "std": 0.021069872567902086,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9218278490866169,
+        "std": 0.012171613375547438,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_15": [
+    {
+      "baseline": {
+        "f1": 0.9584241674712889,
+        "std": 0.0055392516819445636,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9605165254139377,
+        "std": 0.0161690471663185,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9618213075909997,
+        "std": 0.005144600889347836,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9588185326593045,
+        "std": 0.011434872435739561,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9607886056137018,
+        "std": 0.0017588792790377153,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8285572397004564,
+        "std": 0.010632915919566808,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8895496491052054,
+        "std": 0.02322821006435778,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.6995054182643828,
+        "std": 0.018846367712324407,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8856305020986147,
+        "std": 0.0043272920717232705,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7838745956887306,
+        "std": 0.01705314662042361,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9208331009731733,
+        "std": 0.0073756125961788,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_16": [
+    {
+      "baseline": {
+        "f1": 0.9573819712211894,
+        "std": 0.009890633676029412,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9573413185789291,
+        "std": 0.0019100892742252276,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9624063783281377,
+        "std": 0.010706889855372345,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9609140113851508,
+        "std": 0.004159765761736515,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9617310728550779,
+        "std": 0.008692731916168374,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.824386949956302,
+        "std": 0.014603219930068231,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8911236064194599,
+        "std": 0.014688944671156926,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7430280836565867,
+        "std": 0.015488891048041051,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8867867990882559,
+        "std": 0.004908666351171699,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7747034047147112,
+        "std": 0.02553579514363583,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9206054257793994,
+        "std": 0.003797340688649036,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.5,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_17": [
+    {
+      "baseline": {
+        "f1": 0.9600556973920428,
+        "std": 0.007759347521226156,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.970698688673231,
+        "std": 0.007822723219644749,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9663439182610324,
+        "std": 0.0018828750919387283,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9580119432062707,
+        "std": 0.009976903801322674,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9686296985547115,
+        "std": 0.006890311466714725,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8203546711511254,
+        "std": 0.001168223772188974,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.907285048645731,
+        "std": 0.003590579013885224,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7315335441118127,
+        "std": 0.005779669418365231,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.880692364510014,
+        "std": 0.01762808934355838,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7838990450440928,
+        "std": 0.018254776239112532,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9327987912966883,
+        "std": 0.003154330127606444,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_18": [
+    {
+      "baseline": {
+        "f1": 0.9616747470184824,
+        "std": 0.0056384723118291825,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9667554322178121,
+        "std": 0.0013546791749485818,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9683483382098967,
+        "std": 0.00029150338117017076,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9646062663107441,
+        "std": 0.0041881328603866255,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.965811401560012,
+        "std": 0.0044376245930846285,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.827398678252033,
+        "std": 0.014743133897024857,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8943293494690671,
+        "std": 0.008994161549714087,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7398058192362691,
+        "std": 0.035773000143096936,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.891095273499363,
+        "std": 0.012816417328973092,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7787479686308885,
+        "std": 0.025945475997699766,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9320572907854766,
+        "std": 0.005956234013591346,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "expanded_only"
+  ],
+  "test_19": [
+    {
+      "baseline": {
+        "f1": 0.9645414817286606,
+        "std": 0.009719629113893815,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9692163721259573,
+        "std": 0.0056695741899716705,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 32,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9638782165716485,
+        "std": 0.009969100069401082,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9720330193112735,
+        "std": 0.004974735881352415,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9817524764943008,
+        "std": 0.003792510873945067,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8352252754548634,
+        "std": 0.016186111781810363,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8921811376330204,
+        "std": 0.016923763535870284,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7373404073335776,
+        "std": 0.011633015078533513,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8875947639130146,
+        "std": 0.0034907448827028796,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7946427344712005,
+        "std": 0.0031660655340235815,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9263871895466931,
+        "std": 0.008739361569736962,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            50,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ],
+  "test_20": [
+    {
+      "baseline": {
+        "f1": 0.9538674060540616,
+        "std": 0.015995344923300715,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9582555901818361,
+        "std": 0.007388589892569467,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "expanded_only": {
+        "f1": 0.9542142279695492,
+        "std": 0.013378731026691031,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only": {
+        "f1": 0.9526733332130695,
+        "std": 0.010329061152356418,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100,
+            50
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "time_only+exp_FSR": {
+        "f1": 0.9658896891594346,
+        "std": 0.0035876077214549557,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only": {
+        "f1": 0.8172598234834987,
+        "std": 0.00985920899079121,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "freq_only+exp_FSR": {
+        "f1": 0.8963397364876936,
+        "std": 0.012162115557025817,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7201507226131264,
+        "std": 0.02015844420560372,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "arm_only": {
+        "f1": 0.8899610056840489,
+        "std": 0.009712896462609408,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "back_only": {
+        "f1": 0.7653989001694068,
+        "std": 0.03226185398452124,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.01,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            150,
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9204023180638695,
+        "std": 0.017015155659393943,
+        "parameters": {
+          "activation": "relu",
+          "alpha": 0.1,
+          "batch_size": 16,
+          "early_stopping": true,
+          "hidden_layer_sizes": [
+            100
+          ],
+          "learning_rate": "adaptive",
+          "max_iter": 1000,
+          "solver": "adam"
+        }
+      }
+    },
+    "time_only+exp_FSR"
+  ]
+}

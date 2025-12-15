@@ -1,0 +1,33 @@
+{
+    "test_id": "test_6",
+    "meta": {
+        "classes": [
+            "hand_up_back",
+            "hands_forward",
+            "hands_up",
+            "lifting",
+            "pull",
+            "push",
+            "sitting",
+            "squatting",
+            "standing",
+            "walking"
+        ],
+        "metric": "cosine",
+        "n_neighbors": 5,
+        "weights": "uniform"
+    },
+    "mean_accuracy_per_label": {
+        "hand_up_back": 1.0,
+        "hands_forward": 1.0,
+        "hands_up": 1.0,
+        "lifting": 1.0,
+        "pull": 1.0,
+        "push": 0.0,
+        "sitting": 1.0,
+        "squatting": 1.0,
+        "standing": 0.0,
+        "walking": 0.0
+    },
+    "total_mean_accuracy": 0.8292682926829268
+}

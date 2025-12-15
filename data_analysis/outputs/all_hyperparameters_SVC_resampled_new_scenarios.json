@@ -1,0 +1,1062 @@
+{
+  "test_1": [
+    {
+      "baseline": {
+        "f1": 0.9742576035377598,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9758377073136021,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.78456604329148,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9641798112155634,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8736807042642253,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.945656776001063,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_2": [
+    {
+      "baseline": {
+        "f1": 0.9610390260729048,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9659196160742184,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7986531386559955,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9642562679909439,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8733174515926448,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9322318333841091,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_3": [
+    {
+      "baseline": {
+        "f1": 0.9727339097186295,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9747619817567577,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8002699666294553,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9641338514159924,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8703263681567067,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9385806092408927,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_4": [
+    {
+      "baseline": {
+        "f1": 0.9730455087665758,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9776063706467545,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7960960860577794,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9658926909970053,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8504341309489218,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.938327776966121,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_5": [
+    {
+      "baseline": {
+        "f1": 0.9755837936249532,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9816481143122094,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.803825862039532,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9693960671311999,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8669963188487197,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9436963472679065,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_6": [
+    {
+      "baseline": {
+        "f1": 0.9667453431105377,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9700023886128964,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7955421686150906,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9687473616540245,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.874171417071314,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9387913911949148,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_7": [
+    {
+      "baseline": {
+        "f1": 0.9679969404492704,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9787450622037278,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7975283727175121,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9718440935342959,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8588358422784635,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9403652032890714,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_8": [
+    {
+      "baseline": {
+        "f1": 0.9675076527345609,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.970052078072975,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8046076074603804,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9598519395401505,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.866963760576422,
+        "parameters": {
+          "C": 5,
+          "gamma": "auto",
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9387188457449781,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_9": [
+    {
+      "baseline": {
+        "f1": 0.9612639130426611,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9688798769535539,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8016839811011036,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9547775147807238,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8806472213069686,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9442410953447222,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_10": [
+    {
+      "baseline": {
+        "f1": 0.9588683560440673,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9646376779001375,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8121810727361995,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9606052101963526,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.879924132286563,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9339617653523905,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_11": [
+    {
+      "baseline": {
+        "f1": 0.9719516794867006,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9707507984762804,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7982020054933372,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9678260745675606,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8793143186278591,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9433388391211476,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "baseline"
+  ],
+  "test_12": [
+    {
+      "baseline": {
+        "f1": 0.9707774739159357,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9718104768918826,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7829933821241175,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9616850882791509,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.861197642894599,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9427523567459989,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_13": [
+    {
+      "baseline": {
+        "f1": 0.9754448207962049,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.97686045711199,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7942486191174378,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9595967307677657,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8776145306010007,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9388938604557165,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_14": [
+    {
+      "baseline": {
+        "f1": 0.9740080615651087,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9794137121288408,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7959883605347874,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9641861551414544,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8815319013014258,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9418725822790776,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_15": [
+    {
+      "baseline": {
+        "f1": 0.9688821080208836,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9791901245887997,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8010324428911805,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9603649990812846,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8631841073495833,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9419034139515953,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_16": [
+    {
+      "baseline": {
+        "f1": 0.9638910623330581,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9736100735475968,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7951965904164254,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9567605350203306,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8633002771488725,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9319718256800632,
+        "parameters": {
+          "C": 0.1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_17": [
+    {
+      "baseline": {
+        "f1": 0.9616642434836162,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9675161156510678,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.7947781490594047,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9563943621135168,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8551310176490311,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9303270817894234,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ],
+  "test_18": [
+    {
+      "baseline": {
+        "f1": 0.9762636128399166,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9756816284456548,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8061146403740329,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.957991844616917,
+        "parameters": {
+          "C": 1,
+          "gamma": "scale",
+          "kernel": "linear"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.877051697535033,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9519765075241554,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "baseline"
+  ],
+  "test_19": [
+    {
+      "baseline": {
+        "f1": 0.9727727789943635,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9712195896750663,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8085925837046375,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9631263117010737,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8553530502040241,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.943800074381226,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "baseline"
+  ],
+  "test_20": [
+    {
+      "baseline": {
+        "f1": 0.9720969187798771,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "expanded+baseline": {
+        "f1": 0.9727361446916417,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "FSR_only": {
+        "f1": 0.8081026495178555,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.1,
+          "kernel": "rbf"
+        }
+      },
+      "arm_only+FSR": {
+        "f1": 0.9658630354722426,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      },
+      "back_only+FSR": {
+        "f1": 0.8555877721181092,
+        "parameters": {
+          "C": 5,
+          "gamma": 0.01,
+          "kernel": "rbf"
+        }
+      },
+      "IMU_only": {
+        "f1": 0.9445660246412332,
+        "parameters": {
+          "C": 5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        }
+      }
+    },
+    "expanded+baseline"
+  ]
+}
